@@ -24,6 +24,14 @@
             android:onClick="verticalSplash"
             android:text="自定义ViewGroup实现竖向引导界面"/>
 
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="attrbute"
+            android:text="自定义属性"/>
+
+
     </LinearLayout>
 
 </ScrollView>

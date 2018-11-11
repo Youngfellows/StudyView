@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.speex.studyview.aty.AttrbuteActivity;
 import com.speex.studyview.aty.QQListViewActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
 
@@ -33,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
      */
     public void verticalSplash(View view) {
         Intent intent = new Intent(this, VerticalSplashActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 自定义属性
+     *
+     * @param view
+     */
+    public void attrbute(View view) {
+        Intent intent = new Intent(this, AttrbuteActivity.class);
         startActivity(intent);
     }
 }

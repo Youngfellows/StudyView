@@ -19,6 +19,8 @@
         <activity android:name=".aty.QQListViewActivity"/>
         <activity android:name=".aty.VerticalSplashActivity">
         </activity>
+        <activity android:name=".aty.AttrbuteActivity">
+        </activity>
     </application>
 
 </manifest>
