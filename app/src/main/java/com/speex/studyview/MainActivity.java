@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.speex.studyview.aty.AttrbuteActivity;
+import com.speex.studyview.aty.ImageViewActivity;
 import com.speex.studyview.aty.QQListViewActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
 
@@ -44,6 +45,16 @@ public class MainActivity extends AppCompatActivity {
      */
     public void attrbute(View view) {
         Intent intent = new Intent(this, AttrbuteActivity.class);
+        startActivity(intent);
+    }
+
+    /**
+     * 自定义属性
+     *
+     * @param view
+     */
+    public void attrbute2(View view) {
+        Intent intent = new Intent(this, ImageViewActivity.class);
         startActivity(intent);
     }
 }

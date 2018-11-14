@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.speex.studyview.aty.ImageViewActivity">
+
+    <com.speex.studyview.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText1="hello andorid ! "
+        app:titleTextColor1="#ff0000"
+        app:titleTextSize1="30sp"/>
+
+    <com.speex.studyview.view.CustomImageView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="center"
+        app:titleText1="helloworldwelcome"
+        app:titleTextColor1="#00ff00"
+        app:titleTextSize1="20sp"/>
+
+    <com.speex.studyview.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:image="@mipmap/mm01"
+        app:imageScaleType="center"
+        app:titleText1="妹子~"
+        app:titleTextColor1="#ff0000"
+        app:titleTextSize1="12sp"/>
+
+</LinearLayout>
