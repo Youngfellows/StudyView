@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.speex.studyview.aty.AttrbuteActivity;
 import com.speex.studyview.aty.ImageViewActivity;
+import com.speex.studyview.aty.ProgressActivity;
 import com.speex.studyview.aty.QQListViewActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
 
@@ -55,6 +56,11 @@ public class MainActivity extends AppCompatActivity {
      */
     public void attrbute2(View view) {
         Intent intent = new Intent(this, ImageViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void attrbute3(View view) {
+        Intent intent = new Intent(this, ProgressActivity.class);
         startActivity(intent);
     }
 }

@@ -37,6 +37,12 @@
             android:onClick="attrbute2"
             android:text="自定义属性2"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="attrbute3"
+            android:text="自定义属性3"/>
+
 
 
     </LinearLayout>

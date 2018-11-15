@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".aty.ImageViewActivity">
         </activity>
+        <activity android:name=".aty.ProgressActivity">
+        </activity>
     </application>
 
 </manifest>
