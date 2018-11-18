@@ -23,4 +23,13 @@
         <attr name="circleWidth" format="dimension"/>
         <attr name="speed" format="integer"/>
     </declare-styleable>
+
+    <declare-styleable name="CustomVolumControlBar">
+        <attr name="firstColor1" format="color"/>
+        <attr name="secondColor1" format="color"/>
+        <attr name="circleWidth1" format="dimension"/>
+        <attr name="dotCount" format="integer"/>
+        <attr name="splitSize" format="integer"/>
+        <attr name="bg" format="reference"/>
+    </declare-styleable>
 </resources>

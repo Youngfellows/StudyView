@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.speex.studyview.aty.VolumControlActivity">
+
+    <com.speex.studyview.view.CustomVolumControlBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        app:bg="@mipmap/ic_launcher"
+        app:circleWidth1="10dp"
+        app:dotCount="15"
+        app:firstColor1="@color/colorPrimaryDark"
+        app:secondColor1="@color/colorPrimary"
+        app:splitSize="30"/>
+
+</RelativeLayout>

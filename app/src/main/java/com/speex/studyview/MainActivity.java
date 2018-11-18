@@ -10,6 +10,7 @@ import com.speex.studyview.aty.ImageViewActivity;
 import com.speex.studyview.aty.ProgressActivity;
 import com.speex.studyview.aty.QQListViewActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
+import com.speex.studyview.aty.VolumControlActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void attrbute3(View view) {
         Intent intent = new Intent(this, ProgressActivity.class);
+        startActivity(intent);
+    }
+
+    public void volumeControl(View view) {
+        Intent intent = new Intent(this, VolumControlActivity.class);
         startActivity(intent);
     }
 }
