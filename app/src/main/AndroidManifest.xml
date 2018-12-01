@@ -27,6 +27,12 @@
         </activity>
         <activity android:name=".aty.VolumControlActivity">
         </activity>
+        <activity android:name=".aty.ViewGroup1Activity">
+        </activity>
+        <activity android:name=".aty.ViewGroup2Activity">
+        </activity>
+        <activity android:name=".aty.ViewGroup3Activity">
+        </activity>
     </application>
 
 </manifest>

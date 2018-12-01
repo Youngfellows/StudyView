@@ -50,6 +50,24 @@
             android:text="自定义属性4"/>
 
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewGroup1"
+            android:text="自定义ViewGroup1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewGroup2"
+            android:text="自定义ViewGroup2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewGroup3"
+            android:text="自定义ViewGroup3"/>
+
     </LinearLayout>
 
 </ScrollView>
