@@ -68,6 +68,18 @@
             android:onClick="viewGroup3"
             android:text="自定义ViewGroup3"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="velocityTracker"
+            android:text="滑动速度跟踪"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gestureDetector"
+            android:text="GestureDetector手势识别"/>
+
     </LinearLayout>
 
 </ScrollView>

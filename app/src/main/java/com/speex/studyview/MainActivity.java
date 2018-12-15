@@ -6,9 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.speex.studyview.aty.AttrbuteActivity;
+import com.speex.studyview.aty.GestureDetectorActivity;
 import com.speex.studyview.aty.ImageViewActivity;
 import com.speex.studyview.aty.ProgressActivity;
 import com.speex.studyview.aty.QQListViewActivity;
+import com.speex.studyview.aty.VelocityActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
 import com.speex.studyview.aty.ViewGroup1Activity;
 import com.speex.studyview.aty.ViewGroup2Activity;
@@ -85,6 +87,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void viewGroup3(View view) {
         Intent intent = new Intent(this, ViewGroup3Activity.class);
+        startActivity(intent);
+    }
+
+    public void velocityTracker(View view) {
+        Intent intent = new Intent(this, VelocityActivity.class);
+        startActivity(intent);
+    }
+
+    public void gestureDetector(View view) {
+        Intent intent = new Intent(this, GestureDetectorActivity.class);
         startActivity(intent);
     }
 }

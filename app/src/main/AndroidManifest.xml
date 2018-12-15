@@ -33,6 +33,10 @@
         </activity>
         <activity android:name=".aty.ViewGroup3Activity">
         </activity>
+        <activity android:name=".aty.VelocityActivity">
+        </activity>
+        <activity android:name=".aty.GestureDetectorActivity">
+        </activity>
     </application>
 
 </manifest>

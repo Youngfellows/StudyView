@@ -48,6 +48,8 @@ public class ViewGroupContainer extends ViewGroup {
         int width = 0;
         int height = 0;
 
+
+
         int cCount = getChildCount();
 
         int cWidth = 0;
