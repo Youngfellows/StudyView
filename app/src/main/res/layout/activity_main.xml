@@ -80,6 +80,12 @@
             android:onClick="gestureDetector"
             android:text="GestureDetector手势识别"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="bounceScrollView"
+            android:text="ScrollView嵌套ListView"/>
+
     </LinearLayout>
 
 </ScrollView>

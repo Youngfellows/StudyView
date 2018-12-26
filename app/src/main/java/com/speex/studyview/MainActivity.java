@@ -1,11 +1,12 @@
 package com.speex.studyview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.speex.studyview.aty.AttrbuteActivity;
+import com.speex.studyview.aty.BounceScrollActivity;
 import com.speex.studyview.aty.GestureDetectorActivity;
 import com.speex.studyview.aty.ImageViewActivity;
 import com.speex.studyview.aty.ProgressActivity;
@@ -97,6 +98,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void gestureDetector(View view) {
         Intent intent = new Intent(this, GestureDetectorActivity.class);
+        startActivity(intent);
+    }
+
+    public void bounceScrollView(View view) {
+        Intent intent = new Intent(this, BounceScrollActivity.class);
         startActivity(intent);
     }
 }

@@ -37,6 +37,8 @@
         </activity>
         <activity android:name=".aty.GestureDetectorActivity">
         </activity>
+        <activity android:name=".aty.BounceScrollActivity">
+        </activity>
     </application>
 
 </manifest>
