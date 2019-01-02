@@ -11,6 +11,7 @@ import com.speex.studyview.aty.GestureDetectorActivity;
 import com.speex.studyview.aty.ImageViewActivity;
 import com.speex.studyview.aty.ProgressActivity;
 import com.speex.studyview.aty.QQListViewActivity;
+import com.speex.studyview.aty.RefreshActivity;
 import com.speex.studyview.aty.VelocityActivity;
 import com.speex.studyview.aty.VerticalSplashActivity;
 import com.speex.studyview.aty.ViewGroup1Activity;
@@ -103,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void bounceScrollView(View view) {
         Intent intent = new Intent(this, BounceScrollActivity.class);
+        startActivity(intent);
+    }
+
+    public void refresh(View view) {
+        Intent intent = new Intent(this, RefreshActivity.class);
         startActivity(intent);
     }
 }
