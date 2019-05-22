@@ -115,10 +115,7 @@ public class FrameLayoutWithHole extends FrameLayout {
         mEraserBitmap.eraseColor(Color.TRANSPARENT);
         mEraserCanvas.drawColor(mBackgroundColor);
 
-        mEraserCanvas.drawCircle(
-                mRx,
-                mRy,
-                mRadius, mEraser);
+        mEraserCanvas.drawCircle(mRx, mRy, mRadius, mEraser);
 
         canvas.drawBitmap(mEraserBitmap, 0, 0, null);
     }
