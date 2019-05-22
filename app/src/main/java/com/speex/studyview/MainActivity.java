@@ -9,6 +9,7 @@ import com.speex.studyview.aty.AttrbuteActivity;
 import com.speex.studyview.aty.BounceScrollActivity;
 import com.speex.studyview.aty.GestureDetectorActivity;
 import com.speex.studyview.aty.ImageViewActivity;
+import com.speex.studyview.aty.LoukongActivity;
 import com.speex.studyview.aty.ProgressActivity;
 import com.speex.studyview.aty.QQListViewActivity;
 import com.speex.studyview.aty.RefreshActivity;
@@ -109,6 +110,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void refresh(View view) {
         Intent intent = new Intent(this, RefreshActivity.class);
+        startActivity(intent);
+    }
+
+    public void loukong(View view) {
+        Intent intent = new Intent(this, LoukongActivity.class);
         startActivity(intent);
     }
 }

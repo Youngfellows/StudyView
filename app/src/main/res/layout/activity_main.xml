@@ -92,6 +92,12 @@
             android:onClick="refresh"
             android:text="下拉刷新"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loukong"
+            android:text="镂空圆形"/>
+
     </LinearLayout>
 
 </ScrollView>

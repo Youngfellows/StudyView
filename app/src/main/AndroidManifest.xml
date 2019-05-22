@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.speex.studyview">
+    package="com.speex.studyview">
 
     <application
         android:allowBackup="true"
@@ -11,39 +11,28 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".aty.QQListViewActivity"/>
-        <activity android:name=".aty.VerticalSplashActivity">
-        </activity>
-        <activity android:name=".aty.AttrbuteActivity">
-        </activity>
-        <activity android:name=".aty.ImageViewActivity">
-        </activity>
-        <activity android:name=".aty.ProgressActivity">
-        </activity>
-        <activity android:name=".aty.VolumControlActivity">
-        </activity>
-        <activity android:name=".aty.ViewGroup1Activity">
-        </activity>
-        <activity android:name=".aty.ViewGroup2Activity">
-        </activity>
-        <activity android:name=".aty.ViewGroup3Activity">
-        </activity>
-        <activity android:name=".aty.VelocityActivity">
-        </activity>
-        <activity android:name=".aty.GestureDetectorActivity">
-        </activity>
-        <activity android:name=".aty.BounceScrollActivity">
-        </activity>
+        <activity android:name=".aty.QQListViewActivity" />
+        <activity android:name=".aty.VerticalSplashActivity"></activity>
+        <activity android:name=".aty.AttrbuteActivity"></activity>
+        <activity android:name=".aty.ImageViewActivity"></activity>
+        <activity android:name=".aty.ProgressActivity"></activity>
+        <activity android:name=".aty.VolumControlActivity"></activity>
+        <activity android:name=".aty.ViewGroup1Activity"></activity>
+        <activity android:name=".aty.ViewGroup2Activity"></activity>
+        <activity android:name=".aty.ViewGroup3Activity"></activity>
+        <activity android:name=".aty.VelocityActivity"></activity>
+        <activity android:name=".aty.GestureDetectorActivity"></activity>
+        <activity android:name=".aty.BounceScrollActivity"></activity>
         <activity
             android:name=".aty.RefreshActivity"
             android:label="@string/title_activity_refresh"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".aty.LoukongActivity"></activity>
     </application>
 
 </manifest>
